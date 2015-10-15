@@ -1,0 +1,51 @@
+{
+  "name": "mini-weather",
+  "productName": "MiniWeather",
+  "version": "0.1.0",
+  "description": "My astounding app",
+  "license": "MIT",
+  "repository": "rschwoerer/mini-weather",
+  "author": {
+    "name": "RSchwoerer",
+    "email": "rschwoerer@gmail.com",
+    "url": "rschwoerer.github.io"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo",
+    "start": "electron main.js",
+    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=0.31.1"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app"
+  ],
+  "dependencies": {
+    "electron-debug": "^0.1.1",
+    "forecastio": "^0.2.0",
+    "jquery": "^2.1.4",
+    "moment": "^2.10.6",
+    "request": "^2.62.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.0.0",
+    "electron-prebuilt": "^0.31.1",
+    "xo": "^0.7.1"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ],
+    "rules": {
+      "prefer-arrow-callback": 0
+    }
+  }
+}

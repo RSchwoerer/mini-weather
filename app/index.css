@@ -1,0 +1,83 @@
+html {
+	margin: 0;
+	padding: 0;	
+}
+
+body {
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 40px;
+	font-weight: 100;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	border-width: 0px;
+	/*background: #F0597E ;*/
+	background: white;
+}
+
+temp-color {
+	background: transparent;
+}
+header {
+	font-weight: 600;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	font-size: 10px;
+	font-weight: 400;
+}
+
+footer div {
+	margin-left: 20px;
+}
+
+
+
+
+.main {
+	width: 90%;
+	margin: 50px auto;
+	text-align: center;
+}
+
+ 
+#today div {
+	width: 100%;
+}
+
+#today .temperature {
+		font-size: 80px;
+		font-weight: 400;
+		float: left;
+	}
+
+#today .summary {
+	font-size: 20px;
+	font-weight: 200;
+}
+
+#today .pollen {
+	clear: left;
+	margin-top: 40px;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+
+#forcast .temperature {
+	font-size: 40;
+}
+
+#pollendata {
+	font-size: 30px;
+	text-align: left;
+	font-weight: 100;
+}
+
+#pollendata {
+	font-size: 20px
+}
+
